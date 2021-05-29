@@ -1,0 +1,212 @@
+/* Basic Grey */
+/* Style code from http://www.sanwebe.com/2013/10/css-html-form-styles */
+.basic-grey {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #EEE;
+    padding: 20px 30px 20px 30px;
+    font: 16px 
+    color: #000;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DADADA;
+}
+
+.instructions {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #9FF;
+    padding: 20px 30px 20px 30px;
+    font: 16px
+    color: #000;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DADADA;
+}
+
+.basic-grey h1 {
+    font: 25px
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #000;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 80px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #000;
+}
+.basic-grey input[type="text"], input[type="password"], .basic-grey input[type="email"], .basic-grey textarea,.basic-grey select{
+    border: 1px solid #000;
+    color: #000;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font: normal 12px/12px;
+}
+.basic-grey select {
+    text-indent: 0.01px;
+    text-overflow: '';
+    height: 30px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E48F8F;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+div#pageHeader
+{
+	font-size: 48px;
+	border-bottom: solid 2px black;
+}
+
+div#wrapper
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+div.exerciseNumber
+{
+	width: 75px;
+	float: left;
+	font-size: 48px;
+	color: #fff;	
+}
+
+div.exercise
+{
+	width: 825px;
+	float: right;
+}
+
+div.exerciseTitle
+{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+div.solution
+{
+	border: dashed 1px black;
+	background-color: #FC0;
+	padding: 15px;
+	min-height: 5px;
+	width: 750px;	
+}
+
+section
+{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 0;
+	border: solid 1px black;
+	background-color: #ddd;
+}
+
+span.code
+{
+	font-family:"Courier New", Courier, monospace;
+	color: #C00;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 800px;
+	background:#fff;
+}
+
+#header
+{
+	background:#ccc;
+	padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background:#333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+}
+
+#navigation li a:hover 
+{ 
+	background:#383; 
+}
+
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+
+#content h2
+{
+	color:#000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+#footer
+{
+	background:#ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}

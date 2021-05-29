@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.header_row {
+  background-color: gray;
+  font-size: 14px;
+}
+
+.odd_row {
+  background-color: #CDCDCD;
+}
+
+.high_temp {
+  color: red;
+  font-size: 24px;
+}
+
+.disabled_row {
+  color: #F51249;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.medium_delays td {
+  background-color: #F7DD71;
+}
+
+.high_delays td {
+  background-color: #F96955;
+}
+
+.ice {
+  border: 1px solid #0032FC;
+  background-color: #A6B8FF;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+.wind {
+  border: 1px solid #FF8100;
+  background-color: #FFD3A6;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+.high_wind {
+  border: 1px solid #FF3202;
+  background-color: #FFAD9A;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}

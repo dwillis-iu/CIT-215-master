@@ -1,0 +1,177 @@
+nav .search {
+  padding-left: 80px;
+}
+
+nav {
+    background-color:#00BFFF;
+    padding:10px 0;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+
+/* sub navigation */
+nav li ul {    
+    background-color:#22BC61;
+    position:absolute;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+/* style all links */
+nav {
+  color: #fff;
+}
+
+nav a {
+    color:#fff;
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color:rgb(50,50,50);
+}
+
+/* style sub level links */
+nav li li a {
+    border-bottom:solid 1px #157B3F;
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* show arrows for dropdowns */
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
+
+/* hide sub menu links */
+ul.sub-menu {
+    display:none;
+}
+
+.ui-autocomplete {
+    background: #C48010;
+    border-radius: 0px;
+}
+
+.ui-autocomplete li {
+  color:white;
+  list-style-type: none;
+}
+
+.ui-autocomplete a
+    {
+        max-width:100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    } 
+
+.ui-helper-hidden-accessible { 
+  display:none; 
+}
+
+.fieldlabel {
+  width: 200px;
+  float: left;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+}
+
+.ui-datepicker {
+background: orange; /* Old browsers */
+background: orange; -moz-linear-gradient(top, #fcfcfc 0%, #fff 100%); /* FF3.6+ */
+background: orange; -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc)), color-stop(100%,#fff)); /* Chrome,Safari4+ */
+background: orange; -webkit-linear-gradient(top, #fcfcfc 0%, #fff 100%); /* Chrome10+,Safari5.1+ */
+background: orange; -o-linear-gradient(top, #fcfcfc 0%, #fff 100%); /* Opera11.10+ */
+background: orange; -ms-linear-gradient(top, #fcfcfc 0%, #fff 100%); /* IE10+ */
+background: orange; linear-gradient(top, #fcfcfc 0%, #fff 100%); /* W3C */
+font-size:11px;
+padding:10px;
+border:3px solid #fff;
+padding: 10px 30px 10px;
+}
+
+.ui-corner-all {
+border-radius: 15px;
+}
+ 
+.ui-datepicker table {
+width:278px;
+color: white;
+border: 2px solid white;
+padding: 5px;
+border-radius: 15px;
+}
+ 
+.ui-datepicker table td {
+text-align:center;
+color: black;
+background-color: white;
+padding: 7px;
+}
+ 
+.ui-datepicker a {
+cursor:pointer;
+text-decoration:none;
+color: black;
+font-weight: bold;
+font-size: 16px;
+}
+ 
+.ui-datepicker-prev {
+text-shadow: -1px 1px 5px white;
+}
+ 
+.ui-datepicker-next {
+float:right;
+text-shadow: -1px 1px 5px white;
+}
+ 
+.ui-datepicker-title {
+text-align: center;
+font-weight:bold;
+font-size: 24px;
+padding-bottom: 10px;
+color: white;
+text-shadow: -1px 1px 2px black;
+}
